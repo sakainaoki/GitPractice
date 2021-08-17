@@ -8,10 +8,11 @@
 import UIKit
 
 class TestViewController: UIViewController {
-
+    var count = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        count += 1
+        print(count)
         // Do any additional setup after loading the view.
     }
     
