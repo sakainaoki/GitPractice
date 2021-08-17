@@ -15,6 +15,7 @@
 		DB5E67B026CB7DC600139D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5E67AE26CB7DC600139D8B /* LaunchScreen.storyboard */; };
 		DB5E67BB26CB7DC700139D8B /* GitPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E67BA26CB7DC700139D8B /* GitPracticeTests.swift */; };
 		DB5E67C626CB7DC700139D8B /* GitPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E67C526CB7DC700139D8B /* GitPracticeUITests.swift */; };
+		DB5E67D426CB7F5400139D8B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E67D326CB7F5400139D8B /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DB5E67C126CB7DC700139D8B /* GitPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5E67C526CB7DC700139D8B /* GitPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeUITests.swift; sourceTree = "<group>"; };
 		DB5E67C726CB7DC700139D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5E67D326CB7F5400139D8B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				DB5E67A326CB7DC300139D8B /* AppDelegate.swift */,
 				DB5E67A526CB7DC300139D8B /* SceneDelegate.swift */,
 				DB5E67A726CB7DC300139D8B /* ViewController.swift */,
+				DB5E67D326CB7F5400139D8B /* TestViewController.swift */,
 				DB5E67A926CB7DC300139D8B /* Main.storyboard */,
 				DB5E67AC26CB7DC600139D8B /* Assets.xcassets */,
 				DB5E67AE26CB7DC600139D8B /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				DB5E67A826CB7DC300139D8B /* ViewController.swift in Sources */,
 				DB5E67A426CB7DC300139D8B /* AppDelegate.swift in Sources */,
+				DB5E67D426CB7F5400139D8B /* TestViewController.swift in Sources */,
 				DB5E67A626CB7DC300139D8B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.n.s-0427-mr.fender.GitPractice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.n.s-0427-mr.fender.GitPractice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
