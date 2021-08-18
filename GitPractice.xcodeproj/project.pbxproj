@@ -16,6 +16,7 @@
 		DB5E67BB26CB7DC700139D8B /* GitPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E67BA26CB7DC700139D8B /* GitPracticeTests.swift */; };
 		DB5E67C626CB7DC700139D8B /* GitPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E67C526CB7DC700139D8B /* GitPracticeUITests.swift */; };
 		DB5E67D426CB7F5400139D8B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E67D326CB7F5400139D8B /* TestViewController.swift */; };
+		DB5E67D626CD04FC00139D8B /* GitPractice in Resources */ = {isa = PBXBuildFile; fileRef = DB5E67D526CD04FC00139D8B /* GitPractice */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DB5E67C526CB7DC700139D8B /* GitPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeUITests.swift; sourceTree = "<group>"; };
 		DB5E67C726CB7DC700139D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB5E67D326CB7F5400139D8B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		DB5E67D526CD04FC00139D8B /* GitPractice */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GitPractice; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				DB5E67A226CB7DC300139D8B /* GitPractice */,
+				DB5E67D526CD04FC00139D8B /* GitPractice */,
 				DB5E67B926CB7DC700139D8B /* GitPracticeTests */,
 				DB5E67C426CB7DC700139D8B /* GitPracticeUITests */,
 				DB5E67A126CB7DC300139D8B /* Products */,
@@ -236,6 +239,7 @@
 			files = (
 				DB5E67B026CB7DC600139D8B /* LaunchScreen.storyboard in Resources */,
 				DB5E67AD26CB7DC600139D8B /* Assets.xcassets in Resources */,
+				DB5E67D626CD04FC00139D8B /* GitPractice in Resources */,
 				DB5E67AB26CB7DC300139D8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
