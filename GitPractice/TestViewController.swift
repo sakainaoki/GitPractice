@@ -9,14 +9,16 @@ import UIKit
 
 class TestViewController: UIViewController {
     var count = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         count += 1
         print(count)
         // Do any additional setup after loading the view.
     }
-    
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
     /*
     // MARK: - Navigation
 
